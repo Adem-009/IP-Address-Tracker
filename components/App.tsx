@@ -91,13 +91,13 @@ export default function App() {
         <Image
           fill
           src={'/pattern-bg-mobile.png'}
-          alt="bg"
+          alt="background-mobile"
           className="object-cover block md:hidden"
         />
         <Image
           fill
           src={'/pattern-bg-desktop.png'}
-          alt="bg2"
+          alt="background-desktop"
           className="object-cover hidden md:inline"
         />
       </div>

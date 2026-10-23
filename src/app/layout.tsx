@@ -5,7 +5,13 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "IP Address Tracker",
-  description: "",
+  description: "A fast and responsive IP Address Tracker application",
+  keywords: ["IP Address Tracker", "IP Location", "Next.js", "TypeScript", "Tailwind CSS", "Web Development "],
+  authors: [{ name: "Adem" }],
+  openGraph: {
+    title: "IP Address Tracker",
+    description: "Search and locate any IP address or domain quickly with real-time map integration.",
+    type: "website",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

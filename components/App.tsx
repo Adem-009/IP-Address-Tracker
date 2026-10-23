@@ -96,7 +96,7 @@ export default function App() {
         />
         <Image
           fill
-          src={'/pattern-bg-desktop.png '}
+          src={'/pattern-bg-desktop.png'}
           alt="bg2"
           className="object-cover hidden md:inline"
         />
